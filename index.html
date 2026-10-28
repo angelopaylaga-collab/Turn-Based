@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Emoji Astral: Turn-Based RPG</title>
+    <meta name="description" content="A tactical turn-based RPG inspired by Honkai: Star Rail featuring single-emoji heroes, elemental shields, toughness breaks, endgame modes, and mobile PWA installability." />
+    <meta property="og:title" content="Emoji Astral: Turn-Based RPG" />
+    <meta property="og:description" content="A tactical turn-based RPG inspired by Honkai: Star Rail featuring single-emoji heroes, elemental shields, toughness breaks, endgame modes, and mobile PWA installability." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#090a16" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Emoji Astral" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body class="bg-[#090a16] text-slate-100 antialiased select-none overflow-x-hidden min-h-screen">
+    <div id="root">
+      <!-- Fallback shown only when opened directly via double-clicking index.html (file:// protocol) -->
+      <div id="file-protocol-guide" style="display: none; max-width: 640px; margin: 40px auto; padding: 32px; background: #0f1123; border: 1px solid #4f46e5; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.8); text-align: center; color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+        <div style="font-size: 52px; margin-bottom: 12px;">🦊 🚂 ✨</div>
+        <h1 style="font-size: 24px; font-weight: 800; margin: 0 0 10px 0; color: #ffffff;">Emoji Astral: Turn-Based RPG</h1>
+        <p style="font-size: 14px; color: #94a3b8; line-height: 1.6; margin-bottom: 24px;">
+          You opened this file directly from an unzipped folder (<code style="background: #1e1b4b; color: #a5b4fc; padding: 2px 6px; border-radius: 6px;">file:///</code>). Modern React & TypeScript web applications cannot run directly from raw source files without a server due to browser security restrictions.
+        </p>
+
+        <!-- Method 1: Instant Direct Play (Phone or PC) -->
+        <div style="background: #1e1b4b; border: 1px solid #6366f1; border-radius: 16px; padding: 20px; margin-bottom: 20px; text-align: left;">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+            <span style="background: #10b981; color: #022c22; font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 9999px;">RECOMMENDED (0 SETUP)</span>
+            <span style="font-weight: 700; color: #ffffff; font-size: 15px;">Play Online Instantly & Install on Phone</span>
+          </div>
+          <p style="font-size: 13px; color: #cbd5e1; margin: 0 0 14px 0; line-height: 1.5;">
+            Open the official live game web link. It works immediately in any browser on your computer or phone, and can be installed to your phone home screen as a standalone offline app!
+          </p>
+          <a href="https://ais-pre-pbdjde6nzrvvunxx4kxrr3-873081854110.asia-east1.run.app" target="_blank" style="display: block; text-align: center; background: #6366f1; color: #ffffff; text-decoration: none; font-weight: 700; font-size: 14px; padding: 12px 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(99,102,241,0.4);">
+            🚀 Open Live Game App (Click Here)
+          </a>
+        </div>
+
+        <!-- Method 2: Local Run with 1 Click -->
+        <div style="background: #090a16; border: 1px solid #334155; border-radius: 16px; padding: 20px; text-align: left;">
+          <div style="font-weight: 700; color: #ffffff; font-size: 14px; margin-bottom: 6px;">
+            💻 To Run Offline from this Folder on your Computer:
+          </div>
+          <ol style="font-size: 13px; color: #94a3b8; margin: 0; padding-left: 20px; line-height: 1.7;">
+            <li>On <strong>Windows</strong>: Double-click <strong style="color: #fde047;">start.bat</strong> in this folder.</li>
+            <li>Or open your terminal in this folder and run:
+              <br><code style="background: #1e293b; color: #38bdf8; padding: 2px 6px; border-radius: 4px;">npm install</code>
+              <br><code style="background: #1e293b; color: #38bdf8; padding: 2px 6px; border-radius: 4px;">npm run dev</code>
+            </li>
+            <li>Open <a href="http://localhost:3000" target="_blank" style="color: #818cf8;">http://localhost:3000</a> in your browser.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        var guide = document.getElementById('file-protocol-guide');
+        if (guide) guide.style.display = 'block';
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

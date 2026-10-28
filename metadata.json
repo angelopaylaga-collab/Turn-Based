@@ -1,0 +1,6 @@
+{
+  "name": "Emoji Astral: Turn-Based RPG",
+  "description": "A tactical turn-based RPG inspired by Honkai: Star Rail featuring single-emoji heroes, elemental shields, toughness breaks, endgame modes, and mobile PWA installability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
